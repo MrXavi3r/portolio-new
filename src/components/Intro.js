@@ -1,5 +1,12 @@
 import React from "react";
-import { Button, Jumbotron, Container, Row, Col, Media } from "react-bootstrap/";
+import {
+  Button,
+  Jumbotron,
+  Container,
+  Row,
+  Col,
+  Media
+} from "react-bootstrap/";
 
 export default function Intro() {
   return (
@@ -10,7 +17,8 @@ export default function Intro() {
             <h1>Xavier Ritch</h1>
             <h4>Software Engineer</h4>
             <p>
-            I have a passion for building user-friendly, feature rich, fullstack applications.
+              I have a passion for building user-friendly, feature rich,
+              fullstack applications.
             </p>
             <p>
               <Button variant="primary">CONNECT</Button>
@@ -18,7 +26,13 @@ export default function Intro() {
           </Col>
           <Col>
             <Media>
-                <img src= "./portrait.jpg" alt="self portrait"/>
+              <img
+                width={300}
+                height={300}
+                className=""
+                src={require("../portrait.png")}
+                alt="portrait"
+              />
             </Media>
           </Col>
         </Row>

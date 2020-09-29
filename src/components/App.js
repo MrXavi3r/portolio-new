@@ -6,6 +6,7 @@ import About from './About';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Projects from './Projects';
 import Contact from './Contact';
+import WorkInquiry from './WorkInquiry'
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
@@ -18,6 +19,7 @@ function App() {
       <Intro />
       <About />
       <Projects />
+      <WorkInquiry />
       <Contact />
     </div>
   );

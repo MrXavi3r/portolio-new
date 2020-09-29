@@ -1,7 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap/";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
   return (
@@ -9,10 +8,14 @@ export default function Contact() {
       <Card.Title className="mx-auto">Stay Connected</Card.Title>
       <Card.Body className="mx-auto">
         <Card.Text>
+        <p className="mx-5">
+            <small className="text-muted">Miami, FL</small>
+          </p>
           xritch89@hotmail.com
-          <p>
+          <p className="mx-5">
             <small className="text-muted">954-296-6361</small>
           </p>
+          </Card.Text>
           <FontAwesomeIcon
             style={{color: '#af52ec'}}
             className="mr-5"
@@ -25,7 +28,6 @@ export default function Contact() {
             icon={["fab", "linkedin"]}
             size="3x"
           />
-        </Card.Text>
       </Card.Body>
     </Card>
   );
