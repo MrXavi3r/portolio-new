@@ -10,18 +10,18 @@ import {
 
 export default function Intro() {
   return (
-    <Jumbotron>
+    <Jumbotron fluid>
       <Container>
         <Row>
           <Col>
             <h1>Xavier Ritch</h1>
-            <h4>Software Engineer</h4>
+            <h4 className="text-muted">Software Engineer</h4>
             <p>
               I have a passion for building user-friendly, feature rich,
               fullstack applications.
             </p>
             <p>
-              <Button variant="primary">CONNECT</Button>
+              <Button variant="primary" size="lg">CONNECT</Button>
             </p>
           </Col>
           <Col>

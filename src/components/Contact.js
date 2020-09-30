@@ -4,15 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Contact() {
   return (
-    <Card className="mt-5">
-      <Card.Title className="mx-auto">Stay Connected</Card.Title>
-      <Card.Body className="mx-auto">
+    <Card className="mt-5" border="light">
+      <Card.Title className="m-auto">Stay Connected</Card.Title>
+      <Card.Body className="m-auto">
         <Card.Text>
-        <p className="mx-5">
+        <p className="mx-5 text-center">
             <small className="text-muted">Miami, FL</small>
           </p>
-          xritch89@hotmail.com
-          <p className="mx-5">
+          <p className="text-center">xritch89@hotmail.com</p>
+          <p className="text-center">
             <small className="text-muted">954-296-6361</small>
           </p>
           </Card.Text>
