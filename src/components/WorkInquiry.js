@@ -22,9 +22,9 @@ export default function WorkInquiry() {
                 color="brown"
               />
             </Card>
-            <Card.Title className="text-center">Work Inquiry</Card.Title>
-            <Card.Body>
-              <Card.Text>
+            <Card.Title className="text-center"><h2>Work Inquiry</h2></Card.Title>
+            <Card.Body className="pt-0">
+              <Card.Text className="text-center">
                   Incredible opportunities are all around. Let's work together
                 </Card.Text>
             </Card.Body>
@@ -32,7 +32,7 @@ export default function WorkInquiry() {
           </Col>
           <Col className="d-flex align-items-center justify-content-center">
           <Button variant="primary" type="button" size="lg">
-              CONNECT
+              LET'S CHAT
             </Button>
           </Col>
         </Row>
