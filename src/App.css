@@ -1,2 +1,26 @@
+#about {
+    background: linear-gradient(#2193b0, #6dd5ed);
+}
+
+.work-inquiry{
+    background: linear-gradient(#ddd6f3, #faaca8);
+}
+
+.jumbo-column::after {
+    top: 0;
+    right: 0;
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: url('./portrait.png');
+    /* background-color: red; */
+    z-index: -1;
+}
+
+.jumbo-column-container {
+    position: relative;
+    z-index: 0;
+}
 
 

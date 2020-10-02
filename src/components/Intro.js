@@ -5,36 +5,37 @@ import {
   Container,
   Row,
   Col,
-  Media
+  Media,
+  Image
 } from "react-bootstrap/";
+
 
 export default function Intro() {
   return (
-    <Jumbotron fluid>
+    <Jumbotron fluid style={{ background: "#fff" }} id="home">
       <Container>
-        <Row>
-          <Col>
+        <Row className="jumbo-column-container">
+          <Col className="jumbo-column">
             <h1>Xavier Ritch</h1>
             <h4 className="text-muted">Software Engineer</h4>
-            <p>
+            <p className="pt-3 w-50">
               I have a passion for building user-friendly, feature rich,
               fullstack applications.
             </p>
-            <p>
-              <Button variant="primary" size="lg">CONNECT</Button>
-            </p>
+            <Button variant="primary" size="lg" className="m-5">
+              CONNECT
+            </Button>
           </Col>
-          <Col>
+          {/* <Col className="bg-img">
             <Media>
-              <img
-                width={300}
-                height={300}
+              <Image
+              fluid
                 className=""
-                src={require("../portrait.png")}
-                alt="portrait"
+                // src={require("../portrait.png")}
+                style={{backgroundImage: `url(${Background})`}}
               />
             </Media>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Jumbotron>

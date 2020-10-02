@@ -5,23 +5,19 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 export default function WorkInquiry() {
   return (
-    <Container>
+    <Container className="work-inquiry rounded" id="work-inquiry">
       <Card
-        className="container-md mt-5 mr-5 py-3"
-        border="secondary"
-        bg="warning"
+        className="container-md mt-5 mr-5 py-3 work-inquiry border-0"
       >
         <Row>
           <Col>
-          <Card bg="warning" border="warning">
-          <Card className="w-25 rounded-circle" bg="info">
-              <FontAwesomeIcon
+          <Card className="work-inquiry border-0">
+          {/* considered a briefcase icon here, but idk, so leaving it out for now */}
+              {/* <FontAwesomeIcon
                 icon={faBriefcase}
                 size="3x"
-                className="m-auto"
-                color="brown"
-              />
-            </Card>
+                className="highlight"
+              /> */}
             <Card.Title className="text-center"><h2>Work Inquiry</h2></Card.Title>
             <Card.Body className="pt-0">
               <Card.Text className="text-center">
@@ -31,7 +27,7 @@ export default function WorkInquiry() {
             </Card>
           </Col>
           <Col className="d-flex align-items-center justify-content-center">
-          <Button variant="primary" type="button" size="lg">
+          <Button variant="danger" type="button" size="lg">
               LET'S CHAT
             </Button>
           </Col>
