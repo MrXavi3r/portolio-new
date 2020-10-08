@@ -6,21 +6,48 @@
     background: linear-gradient(#ddd6f3, #faaca8);
 }
 
-.jumbo-column::after {
+/* .jumbo-column::after {
     top: 0;
     right: 0;
     content: '';
-    width: 50%;
+    width: 60%;
     height: 100%;
     position: absolute;
-    background: url('./portrait.png');
-    /* background-color: red; */
+    background: url('./real_estate.png');
     z-index: -1;
 }
 
 .jumbo-column-container {
     position: relative;
     z-index: 0;
+} */
+
+.github {
+    background: linear-gradient(#bdc3c7, #fdfbfb);
+    z-index: 0
+}
+
+.linkedin {
+    background: linear-gradient(#a1c4fd, #c2e9fb);
+    z-index: 0
+}
+
+.mail {
+    background: linear-gradient(#ff9a9e,#fad0c4);
+    z-index: 0
+}
+
+.phone {
+    background: linear-gradient(#d5b8ff, #e4efe9);
+    z-index: 0
+}
+
+.fa-github, .fa-mail, .fa-linkedin, .fa-phone {
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
 }
 
 

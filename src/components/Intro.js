@@ -18,7 +18,7 @@ export default function Intro() {
           <Col className="jumbo-column">
             <h1>Xavier Ritch</h1>
             <h4 className="text-muted">Software Engineer</h4>
-            <p className="pt-3 w-50">
+            <p className="pt-3" w-50>
               I have a passion for building user-friendly, feature rich,
               fullstack applications.
             </p>
@@ -26,16 +26,15 @@ export default function Intro() {
               CONNECT
             </Button>
           </Col>
-          {/* <Col className="bg-img">
+          <Col className="bg-img">
             <Media>
               <Image
-              fluid
+                fluid
                 className=""
-                // src={require("../portrait.png")}
-                style={{backgroundImage: `url(${Background})`}}
+                src={require("../portrait.png")}
               />
             </Media>
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Jumbotron>
