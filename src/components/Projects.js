@@ -6,7 +6,7 @@ class Projects extends Component {
     return (
       <Container id="projects" className="mt-5">
         <Row className="d-flex flex-nowrap pt-0 mx-auto">
-          <Card body className="my-5 mr-4 p-0">
+          <Card className="my-5 mr-4 p-0">
             <Card.Img
               variant="top"
               src={require("../restaurant_bar.png")}
@@ -14,8 +14,14 @@ class Projects extends Component {
               width="100"
               height="100"
             />
+            <Card.Title className="text-center">Restaurant</Card.Title>
+            <Card.Text>
+              lorem ipsum slaem walem deku academ naru kage drago goku super
+              ceter alis diety aphro zues de dexe classis exeter xolo graphi
+              coloss olympia hessi kobe mobe
+            </Card.Text>
           </Card>
-          <Card body className="my-5 mr-4 p-0">
+          <Card className="my-5 mr-4 p-0">
             <Card.Img
               variant="top"
               src={require("../graffiti.png")}
@@ -23,8 +29,14 @@ class Projects extends Component {
               width="100"
               height="100"
             />
+            <Card.Title className="text-center">Grafitti</Card.Title>
+            <Card.Text>
+              lorem ipsum slaem walem deku academ naru kage drago goku super
+              ceter alis diety aphro zues de dexe classis exeter xolo graphi
+              coloss olympia hessi kobe mobe
+            </Card.Text>
           </Card>
-          <Card body className="my-5 mr-4 p-0">
+          <Card className="my-5 mr-4 p-0">
             <Card.Img
               variant="top"
               src={require("../real_estate.png")}
@@ -32,8 +44,14 @@ class Projects extends Component {
               width="100"
               height="100"
             />
+            <Card.Title className="text-center">Kitchen</Card.Title>
+            <Card.Text>
+              lorem ipsum slaem walem deku academ naru kage drago goku super
+              ceter alis diety aphro zues de dexe classis exeter xolo graphi
+              coloss olympia hessi kobe mobe
+            </Card.Text>
           </Card>
-          <Card body className="my-5 mr-4 p-0">
+          <Card className="my-5 mr-4 p-0">
             <Card.Img
               variant="top"
               src={require("../band.png")}
@@ -41,6 +59,12 @@ class Projects extends Component {
               width="100"
               height="100"
             />
+            <Card.Title className="text-center">Band</Card.Title>
+            <Card.Text>
+              lorem ipsum slaem walem deku academ naru kage drago goku super
+              ceter alis diety aphro zues de dexe classis exeter xolo graphi
+              coloss olympia hessi kobe mobe
+            </Card.Text>
           </Card>
         </Row>
       </Container>

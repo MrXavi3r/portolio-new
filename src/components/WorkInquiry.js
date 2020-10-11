@@ -5,7 +5,7 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 export default function WorkInquiry() {
   return (
-    <Container className="work-inquiry rounded" id="work-inquiry">
+    <Container className="work-inquiry rounded mt-5" id="work-inquiry">
       <Card
         className="container-md mt-5 mr-5 py-3 work-inquiry border-0"
       >

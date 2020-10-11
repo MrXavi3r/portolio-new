@@ -14,7 +14,7 @@ export default function Intro() {
   return (
     <Jumbotron fluid style={{ background: "#fff" }} id="home">
       <Container>
-        <Row className="jumbo-column-container">
+        <Row className="jumbo-column-container" xl={8}>
           <Col className="jumbo-column">
             <h1>Xavier Ritch</h1>
             <h4 className="text-muted">Software Engineer</h4>

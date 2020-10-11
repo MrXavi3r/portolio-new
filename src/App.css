@@ -6,22 +6,6 @@
     background: linear-gradient(#ddd6f3, #faaca8);
 }
 
-/* .jumbo-column::after {
-    top: 0;
-    right: 0;
-    content: '';
-    width: 60%;
-    height: 100%;
-    position: absolute;
-    background: url('./real_estate.png');
-    z-index: -1;
-}
-
-.jumbo-column-container {
-    position: relative;
-    z-index: 0;
-} */
-
 .github {
     background: linear-gradient(#bdc3c7, #fdfbfb);
     z-index: 0
