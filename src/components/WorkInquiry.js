@@ -1,7 +1,5 @@
 import React from "react";
 import { Card, Button, Row, Col, Container } from "react-bootstrap/";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 export default function WorkInquiry() {
   return (
@@ -12,12 +10,6 @@ export default function WorkInquiry() {
         <Row>
           <Col>
           <Card className="work-inquiry border-0">
-          {/* considered a briefcase icon here, but idk, so leaving it out for now */}
-              {/* <FontAwesomeIcon
-                icon={faBriefcase}
-                size="3x"
-                className="highlight"
-              /> */}
             <Card.Title className="text-center"><h2>Work Inquiry</h2></Card.Title>
             <Card.Body className="pt-0">
               <Card.Text className="text-center">
@@ -27,7 +19,7 @@ export default function WorkInquiry() {
             </Card>
           </Col>
           <Col className="d-flex align-items-center justify-content-center">
-          <Button variant="danger" type="button" size="lg">
+          <Button variant="danger" type="button" size="lg" className="three-d">
               LET'S CHAT
             </Button>
           </Col>

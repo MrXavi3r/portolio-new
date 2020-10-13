@@ -22,7 +22,7 @@ export default function Intro() {
               I have a passion for building user-friendly, feature rich,
               fullstack applications.
             </p>
-            <Button variant="primary" size="lg" className="m-5">
+            <Button variant="primary" size="lg" className="m-5 three-d">
               CONNECT
             </Button>
           </Col>

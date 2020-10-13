@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 
 export default function About() {
   return (
-    <Card id="about" className="container-md rounded mt-5 ml-5 py-4" text="dark" border="secondary">
+    <Card id="about" className="container-md rounded mt-5 ml-5 py-4 three-d" text="dark" border="secondary">
       <Card.Body>
         I've fallen in love with development. The past couple of years i've
         worked on amazing projects using Javascript, React, JQuery, Node.js,

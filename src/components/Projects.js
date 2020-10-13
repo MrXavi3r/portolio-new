@@ -6,7 +6,7 @@ class Projects extends Component {
     return (
       <Container id="projects" className="mt-5">
         <Row className="d-flex flex-nowrap pt-0 mx-auto">
-          <Card className="my-5 mr-4 p-0">
+          <Card className="three-d my-5 mr-4 p-0">
             <Card.Img
               variant="top"
               src={require("../restaurant_bar.png")}
@@ -21,7 +21,7 @@ class Projects extends Component {
               coloss olympia hessi kobe mobe
             </Card.Text>
           </Card>
-          <Card className="my-5 mr-4 p-0">
+          <Card className="three-d my-5 mr-4 p-0">
             <Card.Img
               variant="top"
               src={require("../graffiti.png")}
@@ -36,7 +36,7 @@ class Projects extends Component {
               coloss olympia hessi kobe mobe
             </Card.Text>
           </Card>
-          <Card className="my-5 mr-4 p-0">
+          <Card className="three-d my-5 mr-4 p-0">
             <Card.Img
               variant="top"
               src={require("../real_estate.png")}
@@ -51,7 +51,7 @@ class Projects extends Component {
               coloss olympia hessi kobe mobe
             </Card.Text>
           </Card>
-          <Card className="my-5 mr-4 p-0">
+          {/* <Card className="three-d my-5 mr-4 p-0">
             <Card.Img
               variant="top"
               src={require("../band.png")}
@@ -65,7 +65,7 @@ class Projects extends Component {
               ceter alis diety aphro zues de dexe classis exeter xolo graphi
               coloss olympia hessi kobe mobe
             </Card.Text>
-          </Card>
+          </Card> */}
         </Row>
       </Container>
     );

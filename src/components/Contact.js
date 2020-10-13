@@ -13,7 +13,7 @@ export default function Contact() {
         </p>
       </Card.Text>
       <Card.Body className="d-flex justify-content-around pt-0 w-75 mx-auto">
-        <Card text="dark" className="connect-icon github">
+        <Card text="dark" className="connect-icon github three-d">
             <FontAwesomeIcon
               className="m-2 fa-github"
               icon={["fab", "github"]}
@@ -21,7 +21,7 @@ export default function Contact() {
             />
           <h6 className="small text-center">Github</h6>
         </Card>
-        <Card text="dark" className="connect-icon mail">
+        <Card text="dark" className="connect-icon mail three-d">
           <FontAwesomeIcon
             style={{ color: "#eb3349" }}
             className="m-2 fa-mail"
@@ -30,7 +30,7 @@ export default function Contact() {
           />
           <h6 className="small text-center">Email</h6>
         </Card>
-        <Card text="" className="connect-icon linkedin">
+        <Card text="" className="connect-icon linkedin three-d">
           <FontAwesomeIcon
             style={{ color: "#115bdc" }}
             className="m-2 fa-linkedin"
@@ -39,7 +39,7 @@ export default function Contact() {
           />
           <h6 className="small text-center">LinkedIn</h6>
         </Card>
-        <Card text="" className="connect-icon phone">
+        <Card text="" className="connect-icon phone three-d">
           <FontAwesomeIcon
             style={{ color: "#af52ec" }}
             className="m-2 fa-phone"
